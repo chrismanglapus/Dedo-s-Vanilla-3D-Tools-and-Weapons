@@ -1,0 +1,2 @@
+Dedo's 3D Vanilla Tools and Weapons is a Minecraft resource pack that replaces the default flat tools and weapons with high-quality 3D models, carefully crafted to stay true to the classic vanilla aesthetic. This pack enhances immersion without straying from Minecraft’s original charm—ideal for players who want a more dynamic and visually appealing experience while keeping the game’s iconic style intact.
+
