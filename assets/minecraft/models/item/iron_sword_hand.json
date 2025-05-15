@@ -1,0 +1,112 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/iron_sword_hand"
+	},
+	"elements": [
+		{
+			"name": "blade tip",
+			"from": [7.75, 20.06694, 6.6276],
+			"to": [8.251, 22.19194, 8.7526],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8.0005, 21.44194, 8.0026]},
+			"faces": {
+				"north": {"uv": [21, 17, 18, 17], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [14.5, 0, 16, 1.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [14.5, 3, 14, 1.5], "rotation": 180, "texture": "#0"},
+				"west": {"uv": [16, 0, 14.5, 1.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [15.5, 0, 16, 1.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [21, 17, 21, 19], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hilt",
+			"from": [7.125, 5.86627, 4.92231],
+			"to": [8.875, 6.86627, 8.32231],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 6.36627, 6.67231]},
+			"faces": {
+				"north": {"uv": [2, 8, 3, 10.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3, 8, 2, 10.5], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [0, 8, 1.5, 9], "texture": "#0"},
+				"west": {"uv": [2, 8, 3, 10.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [1.5, 10.5, 0, 9], "texture": "#0"},
+				"down": {"uv": [5.5, 2, 4, 3.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "hilt",
+			"from": [7.125, 6.24896, 7.62657],
+			"to": [8.875, 7.24896, 11.00157],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 6.74896, 10.25157]},
+			"faces": {
+				"north": {"uv": [0, 8, 1.5, 9], "texture": "#0"},
+				"east": {"uv": [2, 8, 3, 10.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 8, 3, 10.5], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [2, 8, 3, 10.5], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [1.5, 9.5, 0, 8], "texture": "#0"},
+				"down": {"uv": [3.5, 2, 2, 3.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "blade",
+			"from": [7.75, 6, 6.5],
+			"to": [8.25, 21, 9.5],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 7.5], "texture": "#0"},
+				"east": {"uv": [1.5, 0, 0, 7.5], "texture": "#0"},
+				"south": {"uv": [1, 0, 1.5, 7.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 1.5, 7.5], "texture": "#0"},
+				"up": {"uv": [1.5, 8.5, 0, 8], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [1.5, 8.5, 0, 9], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7.59975, 1.4, 7.6],
+			"to": [8.39975, 6, 8.4],
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.99975, 2.35, 8]},
+			"faces": {
+				"north": {"uv": [1, 11.5, 1.5, 16], "texture": "#0"},
+				"east": {"uv": [1.5, 11.5, 2, 16], "texture": "#0"},
+				"south": {"uv": [2, 11.5, 2.5, 16], "texture": "#0"},
+				"west": {"uv": [1, 11.5, 1.5, 16], "texture": "#0"},
+				"up": {"uv": [3, 11, 2, 10], "texture": "#0"},
+				"down": {"uv": [4, 10, 3, 11], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7.12475, 0.275, 7.25],
+			"to": [8.87475, 1.775, 8.75],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.99975, 1.025, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 3.5, 3.5], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [3.5, 0, 2, 1.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 2, 3.5, 3.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [5.5, 1.5, 4, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [4, 2, 5.5, 3.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5.5, 2, 4, 3.5], "rotation": 270, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, 1],
+			"scale": [1.03, 1, 1.03]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 2, 1],
+			"scale": [1.03, 1, 1.03]
+		},
+		"firstperson_righthand": {
+			"rotation": [10.05, -6.2, -4.43],
+			"translation": [1.25, 2, 0.25],
+			"scale": [1, 0.7, 0.78]
+		},
+		"firstperson_lefthand": {
+			"rotation": [10.05, -6.2, -4.43],
+			"translation": [1.25, 2, 0.25],
+			"scale": [1, 0.7, 0.78]
+		}
+	}
+}

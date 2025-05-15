@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 44,
+		"supported_formats": {
+			"min_inclusive": 44,
+			"max_inclusive": 32767
+		},
+    "description": "Made by Dedonaut"
+  }
+}
